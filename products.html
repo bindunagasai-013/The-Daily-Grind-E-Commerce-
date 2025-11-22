@@ -1,0 +1,11 @@
+<h1>Products</h1>
+<ul>
+{% for p in products %}
+<li>
+    <b>{{ p.name }}</b> — ${{ p.price }} <br>
+    {{ p.description }} <br>
+    <a href="/add-to-cart/{{ p.id }}">Add to Cart</a>
+</li>
+{% endfor %}
+</ul>
+<a href="/cart">Go to Cart</a>
