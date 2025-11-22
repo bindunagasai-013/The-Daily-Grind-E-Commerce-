@@ -1,0 +1,13 @@
+<h1>Your Cart</h1>
+{% if not items %}
+<p>Cart is empty.</p>
+<a href="/products">Go Shopping</a>
+{% else %}
+<ul>
+{% for item in items %}
+<li>{{ item.name }} — Qty: {{ item.qty }} — ${{ item.subtotal }}</li>
+{% endfor %}
+</ul>
+<p>Total: ${{ total }}</p>
+<a href="/clear-cart">Clear Cart</a>
+{% endif %}
