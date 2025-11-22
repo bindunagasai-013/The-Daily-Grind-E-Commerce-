@@ -1,0 +1,1 @@
+This my CS665 subject project about The_Daily_Grind_E-commerce. The Daily Grind E-Commerce is an online retail platform dedicated to delivering high-quality coffee products and accessories straight to your door. From premium beans to brewing tools, it brings the café experience to your home.
